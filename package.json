@@ -1,0 +1,28 @@
+{
+  "name": "hbs-test",
+  "version": "0.0.1",
+  "description": "hbs-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unclary/hbs-test.git"
+  },
+  "keywords": [
+    "handlebars",
+    "hbs",
+    "engine"
+  ],
+  "author": "wangcl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unclary/hbs-test/issues"
+  },
+  "homepage": "https://github.com/unclary/hbs-test",
+  "dependencies": {
+    "express": "^4.11.1",
+    "hbs": "^2.8.0"
+  }
+}

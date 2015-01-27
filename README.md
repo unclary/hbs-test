@@ -73,9 +73,9 @@ hbs-test-source: https://github.com/donpark/hbs.git
     <p>这里是测试页啊</p>
     
 + 访问地址：首页：127.0.0.1:3000/  
-![首页](http://localhost:3000/public/img/index.jpg)  
+![首页](./public/img/index.jpg)  
 + 访问地址：测试页：127.0.0.1:3000/test/
-![测试](http://localhost:3000/public/img/test.jpg)  
+![测试](./public/img/test.jpg)  
 
 ### 自定义hbs的模块文件
 本人喜欢的模块有: (模块存放路径/views/block/*)
@@ -141,9 +141,9 @@ hbs模块配置完成后，开始调用，将在layout调用，重构layout
 	</html>
 /public/css/style.css文件自己随便写的，就不贴代码出来了
 + 访问地址：首页：127.0.0.1:3000/  
-![首页](http://localhost:3000/public/img/block_index.jpg)  
+![首页](./public/img/block_index.jpg)  
 + 访问地址：测试页：127.0.0.1:3000/test/
-![测试](http://localhost:3000/public/img/block_test.jpg)  
+![测试](./public/img/block_test.jpg)  
 
 ### 自定义hbs的模块目录
 首先定义模块目录下的文件：随便定义4个如下：
@@ -181,6 +181,6 @@ hbs模块配置完成后，开始调用，将在layout调用，重构layout
         })
     })
 + 访问地址：首页：127.0.0.1:3000/blockdirs/  
-![模块目录页面](http://localhost:3000/public/img/blockdirs.jpg)  
+![模块目录页面](./public/img/blockdirs.jpg)  
 
 updatetime: 2015-01-27

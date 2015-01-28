@@ -1,5 +1,5 @@
 # hbs-test
-hbs-test-source: https://github.com/donpark/hbs.git
+
 
 ### 模板引擎 handlebars
 前端常用模板引擎handlebars，因此我服务器也选择handlebars当模板引擎，便于统一管理
@@ -181,6 +181,7 @@ hbs模块配置完成后，开始调用，将在layout调用，重构layout
         })
     })
 + 访问地址：首页：127.0.0.1:3000/blockdirs/  
-![模块目录页面](./public/img/blockdirs.jpg)  
+![模块目录页面](./public/img/blockdirs.jpg) 
 
-updatetime: 2015-01-27
+demo: [demo地址](http://hbs-test.clary.cc)  
+hbs-test-source: https://github.com/donpark/hbs.git
